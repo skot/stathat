@@ -1,0 +1,131 @@
+(footprint "63862-1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.1 -4.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "211e5348-f537-4e5b-ab44-1b204f28e4a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "63862-1"
+		(at 0.36 4.12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2c945c6b-d394-43ab-9217-8ddcf20e30d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66ac1d67-fc1b-4474-b15e-2145c394303c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0832b3b7-954f-4216-97e8-df6c1f8bc806")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4 -3.25)
+		(end 4 -3.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d111d75b-0517-4239-abce-45c0e3d81ae3")
+	)
+	(fp_line
+		(start -4 3.25)
+		(end -4 -3.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cdced909-a0c3-4a45-b0a4-34bf3bd459e5")
+	)
+	(fp_line
+		(start 4 -3.25)
+		(end 4 3.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34f50499-3560-45ba-8ed4-3c345352a1b6")
+	)
+	(fp_line
+		(start 4 3.25)
+		(end -4 3.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e24e14b3-9219-4c45-b28e-3ad932fd1e07")
+	)
+	(fp_line
+		(start -2.49 0)
+		(end 2.61 0)
+		(stroke
+			(width 0.8)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "bd98b68c-60ca-4b99-8626-d472aed74eba")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 2.52 2.52)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "da1d44e1-cc0b-44f4-811e-812aced0b88c")
+	)
+	(pad "1" thru_hole circle
+		(at 2.54 0)
+		(size 2.52 2.52)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2ba7da89-5516-4e14-a7b6-e5c5e0f3bcea")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dshapes/c-63862-1-r-3d.stp"
+		(offset
+			(xyz 0 0 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
