@@ -1023,7 +1023,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
+		(symbol "Device:LED_Filled"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1046,7 +1046,7 @@
 					)
 				)
 			)
-			(property "Value" "LED"
+			(property "Value" "LED_Filled"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1078,11 +1078,21 @@
 					)
 				)
 			)
-			(property "Description" "Light emitting diode"
+			(property "Description" "Light emitting diode, filled shape"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1111,7 +1121,7 @@
 					)
 				)
 			)
-			(symbol "LED_0_1"
+			(symbol "LED_Filled_0_1"
 				(polyline
 					(pts
 						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
@@ -1169,11 +1179,11 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 			)
-			(symbol "LED_1_1"
+			(symbol "LED_Filled_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1368,8 +1378,11 @@
 			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
@@ -2984,7 +2997,7 @@
 	)
 	(text "24VAC Input"
 		(exclude_from_sim no)
-		(at 79.756 41.91 0)
+		(at 80.01 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3176,6 +3189,10 @@
 	(no_connect
 		(at 81.28 134.62)
 		(uuid "25467c7e-4769-414f-ac4c-dcd806d43cbc")
+	)
+	(no_connect
+		(at 121.92 154.94)
+		(uuid "28c896b5-4f6d-4529-8fc7-dcdac220af56")
 	)
 	(no_connect
 		(at 121.92 116.84)
@@ -3821,7 +3838,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.726 50.8) (xy 81.026 50.8)
+			(xy 93.98 50.8) (xy 81.28 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4421,7 +4438,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.726 44.45) (xy 81.026 44.45)
+			(xy 93.98 44.45) (xy 81.28 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4500,7 +4517,7 @@
 		(uuid "38cfbaf9-a452-4e24-ba1d-9f634cad8da9")
 	)
 	(label "-24VAC"
-		(at 93.726 44.45 180)
+		(at 93.98 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4730,7 +4747,7 @@
 		(uuid "cd3b0f8e-5f80-49bf-95e4-87a8b8860dc6")
 	)
 	(label "+24VAC"
-		(at 93.726 50.8 180)
+		(at 93.98 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5195,7 +5212,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 279.4 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -5489,7 +5506,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 75.946 50.8 0)
+		(at 76.2 50.8 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5500,7 +5517,7 @@
 		(dnp no)
 		(uuid "2105ff7b-bd49-4d51-bc9a-1c16a3bb27ad")
 		(property "Reference" "J9"
-			(at 73.406 50.7999 0)
+			(at 73.66 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5511,7 +5528,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 73.406 52.0699 0)
+			(at 73.66 52.0699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5523,7 +5540,7 @@
 			)
 		)
 		(property "Footprint" "stathat:63862-1"
-			(at 75.946 50.8 0)
+			(at 76.2 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5534,7 +5551,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=63862&DocType=Customer+Drawing&DocLang=English"
-			(at 75.946 50.8 0)
+			(at 76.2 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5545,7 +5562,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 75.946 50.8 0)
+			(at 76.2 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5555,7 +5572,7 @@
 			)
 		)
 		(property "DK" "A100886CT-ND"
-			(at 75.946 50.8 0)
+			(at 76.2 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5566,7 +5583,7 @@
 			)
 		)
 		(property "PARTNO" "63862-1"
-			(at 75.946 50.8 0)
+			(at 76.2 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5577,7 +5594,7 @@
 			)
 		)
 		(property "DNP" ""
-			(at 75.946 50.8 0)
+			(at 76.2 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5941,7 +5958,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 75.946 44.45 0)
+		(at 76.2 44.45 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5952,7 +5969,7 @@
 		(dnp no)
 		(uuid "2e7f50f6-6110-48fa-8760-7f59a9f42746")
 		(property "Reference" "J8"
-			(at 73.406 44.4499 0)
+			(at 73.66 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5963,7 +5980,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 73.406 45.7199 0)
+			(at 73.66 45.7199 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5975,7 +5992,7 @@
 			)
 		)
 		(property "Footprint" "stathat:63862-1"
-			(at 75.946 44.45 0)
+			(at 76.2 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5986,7 +6003,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=63862&DocType=Customer+Drawing&DocLang=English"
-			(at 75.946 44.45 0)
+			(at 76.2 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5997,7 +6014,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 75.946 44.45 0)
+			(at 76.2 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6007,7 +6024,7 @@
 			)
 		)
 		(property "DK" "A100886CT-ND"
-			(at 75.946 44.45 0)
+			(at 76.2 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6018,7 +6035,7 @@
 			)
 		)
 		(property "PARTNO" "63862-1"
-			(at 75.946 44.45 0)
+			(at 76.2 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6029,7 +6046,7 @@
 			)
 		)
 		(property "DNP" ""
-			(at 75.946 44.45 0)
+			(at 76.2 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6869,7 +6886,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 279.4 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -6912,7 +6929,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Device:LED_Filled")
 		(at 210.82 81.28 180)
 		(unit 1)
 		(body_style 1)
@@ -6966,8 +6983,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, filled shape"
 			(at 210.82 81.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7021,6 +7039,17 @@
 			)
 		)
 		(property "DNP" ""
+			(at 210.82 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 210.82 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7972,7 +8001,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 279.4 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -8158,7 +8187,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Device:LED_Filled")
 		(at 210.82 118.11 180)
 		(unit 1)
 		(body_style 1)
@@ -8212,8 +8241,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, filled shape"
 			(at 210.82 118.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8234,6 +8264,17 @@
 			)
 		)
 		(property "PARTNO" "150040VS73240"
+			(at 210.82 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 210.82 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -8509,7 +8550,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Device:LED_Filled")
 		(at 213.36 199.39 180)
 		(unit 1)
 		(body_style 1)
@@ -8563,8 +8604,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, filled shape"
 			(at 213.36 199.39 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8618,6 +8660,17 @@
 			)
 		)
 		(property "DNP" ""
+			(at 213.36 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 213.36 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -9004,7 +9057,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Device:LED_Filled")
 		(at 210.82 157.48 180)
 		(unit 1)
 		(body_style 1)
@@ -9058,8 +9111,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, filled shape"
 			(at 210.82 157.48 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9113,6 +9167,17 @@
 			)
 		)
 		(property "DNP" ""
+			(at 210.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 210.82 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -10662,7 +10727,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 279.4 274.32 0)
 			(hide yes)
 			(show_name no)

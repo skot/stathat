@@ -145,8 +145,8 @@
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
-			(sketchdnponfab yes)
-			(crossoutdnponfab yes)
+			(sketchdnponfab no)
+			(crossoutdnponfab no)
 			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
@@ -218,7 +218,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-2.20KLRCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -231,7 +231,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-072K2L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -416,7 +416,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "1276-1040-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -429,7 +429,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CL10A225KO8NNNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -593,7 +593,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -751,7 +751,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-2.20KLRCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -764,7 +764,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-072K2L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1338,7 +1338,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "1276-1040-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1351,7 +1351,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CL10A225KO8NNNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1734,7 +1734,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "1276-1040-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1747,7 +1747,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CL10A225KO8NNNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2111,7 +2111,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, filled shape"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2192,6 +2192,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "08541f13-1db3-4987-828d-f22ae9aaa1a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfc2e0e7-3679-4676-922b-303ae181a965")
 			(effects
 				(font
 					(size 1 1)
@@ -2557,7 +2570,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "13-RC1210FR-075K1LCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2570,7 +2583,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC1210FR-075K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2755,7 +2768,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "13-RC1210FR-075K1LCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2768,7 +2781,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC1210FR-075K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3118,7 +3131,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3282,6 +3295,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a7870131-b595-4a06-8c36-228d6432b1fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTNO" "SN74HC14DR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "657ea298-8841-40de-8da6-951bae56c656")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DK" "296-1194-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "522fce6d-2bae-4137-a19b-d3f54a8d0baf")
 			(effects
 				(font
 					(size 1 1)
@@ -4132,7 +4171,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(J4-GPIO27-Pad13)")
 			(pinfunction "GPIO27_13")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "ad1a3187-217d-45e7-80fc-69836fb53671")
 		)
 		(pad "14" thru_hole oval
@@ -4514,7 +4553,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "13-RC1210FR-075K1LCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4527,7 +4566,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC1210FR-075K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4712,7 +4751,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "13-RC1210FR-075K1LCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4725,7 +4764,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC1210FR-075K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4887,7 +4926,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, filled shape"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4968,6 +5007,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ff1efbed-171a-4407-965f-851abd28cca9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47975e96-5e63-4fb5-a183-ce8c20917646")
 			(effects
 				(font
 					(size 1 1)
@@ -5531,7 +5583,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "1276-1002-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5544,7 +5596,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CL05B104KP5NNNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5706,7 +5758,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, filled shape"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5787,6 +5839,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "26a18346-649f-4cec-b1a7-e4d96a90246c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ced9655-7651-47d4-9f8c-003b24e01948")
 			(effects
 				(font
 					(size 1 1)
@@ -5966,7 +6031,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "13-RC1210FR-075K1LCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5979,7 +6044,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC1210FR-075K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6164,7 +6229,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "1276-1040-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6177,7 +6242,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CL10A225KO8NNNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6362,7 +6427,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-2.20KLRCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6375,7 +6440,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-072K2L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7876,7 +7941,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "13-RC1210FR-075K1LCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7889,7 +7954,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC1210FR-075K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8644,7 +8709,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "13-RC1210FR-075K1LCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8657,7 +8722,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC1210FR-075K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8821,7 +8886,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9165,7 +9230,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "13-RC1210FR-075K1LCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9178,7 +9243,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC1210FR-075K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9363,7 +9428,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-2.20KLRCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9376,7 +9441,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-072K2L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9540,7 +9605,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9675,7 +9740,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, filled shape"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9756,6 +9821,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6796ab4c-9269-44d3-8b3f-26a09c5722c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61090e41-2eb9-4427-a7bb-02c590e4440e")
 			(effects
 				(font
 					(size 1 1)
@@ -9955,6 +10033,18 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "bd581c94-4e84-4f51-ab8b-cb1dd195bf94")
+	)
+	(gr_text "FOSS || GTFO"
+		(at 154.65 118.425 0)
+		(layer "F.Cu")
+		(uuid "821a02c4-472f-4de6-9044-89aca22624d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "R"
 		(at 118.035 73.0225 0)
