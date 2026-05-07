@@ -229,16 +229,13 @@
 		(embedded_fonts no)
 	)
 	(symbol "LTV-844S"
-		(pin_names
-			(offset 1.016)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 11.43 0)
+			(at -7.112 22.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -248,7 +245,7 @@
 			)
 		)
 		(property "Value" "LTV-844S"
-			(at 0 8.89 0)
+			(at 3.048 -22.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -257,19 +254,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
-			(at 0 -11.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTV-814_824_844%20%28M%2CS%2CS_TA1%29.pdf"
-			(at 0 -13.97 0)
+		(property "Footprint" "stathat:OPTO-SMD-16_L19.8-W6.5-P2.54-LS10.2-BL"
+			(at -0.254 -26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -279,41 +265,30 @@
 				)
 			)
 		)
-		(property "Description" "Quad AC-input phototransistor optocoupler"
-			(at -0.508 -18.542 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C575506"
-			(at 0 -16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "LTV-844S"
-			(at 0 -8.382 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK" "160-1349-5-ND"
+		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C575506"
+			(at 0.254 -24.384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -325,8 +300,8 @@
 		)
 		(symbol "LTV-844S_0_1"
 			(rectangle
-				(start -8.89 6.35)
-				(end 8.89 -6.35)
+				(start -7.62 20.955)
+				(end 7.62 -20.955)
 				(stroke
 					(width 0)
 					(type default)
@@ -335,12 +310,48 @@
 					(type background)
 				)
 			)
+			(polyline
+				(pts
+					(xy -7.62 12.065) (xy 7.62 12.065)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 0) (xy 7.62 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -12.065) (xy 7.62 -12.065)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "LTV-844S_1_1"
-			(pin passive line
-				(at -11.43 3.81 0)
+			(pin unspecified line
+				(at -10.16 19.05 0)
 				(length 2.54)
-				(name "A1"
+				(name "AC1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -355,10 +366,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -11.43 -3.81 0)
+			(pin unspecified line
+				(at -10.16 16.51 0)
 				(length 2.54)
-				(name "A2"
+				(name "CA1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -373,48 +384,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 11.43 -3.81 180)
+			(pin unspecified line
+				(at -10.16 7.62 0)
 				(length 2.54)
-				(name "E"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 11.43 0 180)
-				(length 2.54)
-				(name "C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LTV-844S_2_1"
-			(pin passive line
-				(at -11.43 3.81 0)
-				(length 2.54)
-				(name "A1"
+				(name "AC2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -429,10 +402,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -11.43 -3.81 0)
+			(pin unspecified line
+				(at -10.16 5.08 0)
 				(length 2.54)
-				(name "A2"
+				(name "CA2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -447,48 +420,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 11.43 -3.81 180)
+			(pin unspecified line
+				(at -10.16 -5.08 0)
 				(length 2.54)
-				(name "E"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 11.43 0 180)
-				(length 2.54)
-				(name "C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LTV-844S_3_1"
-			(pin passive line
-				(at -11.43 3.81 0)
-				(length 2.54)
-				(name "A1"
+				(name "AC3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -503,10 +438,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -11.43 -3.81 0)
+			(pin unspecified line
+				(at -10.16 -7.62 0)
 				(length 2.54)
-				(name "A2"
+				(name "CA3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -521,48 +456,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 11.43 -3.81 180)
+			(pin unspecified line
+				(at -10.16 -16.51 0)
 				(length 2.54)
-				(name "E"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 11.43 0 180)
-				(length 2.54)
-				(name "C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LTV-844S_4_1"
-			(pin passive line
-				(at -11.43 3.81 0)
-				(length 2.54)
-				(name "A1"
+				(name "AC4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -577,10 +474,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -11.43 -3.81 0)
+			(pin unspecified line
+				(at -10.16 -19.05 0)
 				(length 2.54)
-				(name "A2"
+				(name "CA4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -595,10 +492,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 11.43 -3.81 180)
+			(pin unspecified line
+				(at 10.16 -19.05 180)
 				(length 2.54)
-				(name "E"
+				(name "E4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -613,10 +510,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 11.43 0 180)
+			(pin unspecified line
+				(at 10.16 -16.51 180)
 				(length 2.54)
-				(name "C"
+				(name "C4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -624,6 +521,114 @@
 					)
 				)
 				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -7.62 180)
+				(length 2.54)
+				(name "E3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(name "C3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 5.08 180)
+				(length 2.54)
+				(name "E2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 7.62 180)
+				(length 2.54)
+				(name "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 16.51 180)
+				(length 2.54)
+				(name "E1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 19.05 180)
+				(length 2.54)
+				(name "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
